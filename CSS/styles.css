@@ -773,7 +773,7 @@ footer a{
         width: 100%;
         height: 100vh;
         background-size: cover;
-        background-position: top  right 5px;
+        background-position: top  right 0px;
         position: relative;
     }
     header nav{
@@ -814,10 +814,12 @@ footer a{
     .header-btn{
         position: absolute;
         padding: 10px 20px;
-        bottom: 0;
-        width: 100%;
+        bottom: 5%;
+        width: 96%;
         margin: 0 auto;
-        border-radius: 0;
+        border-radius: 5px;
+        left: 0;
+        right: 0; 
     }
     .header-btn a{
     text-align: center;
